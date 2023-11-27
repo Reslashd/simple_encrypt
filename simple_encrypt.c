@@ -148,10 +148,6 @@ int readFile(char file_content[][MAX_LENGTH], FILE * file_ptr){
 			lines_read++;	
 		}
 	 }
-	 // show read lines for debugging
-	// for (int i = 0; i < lines_read; i++){
-	//	printf("%s", file_content[i]);	
-	// }
 	return lines_read;
 }
 
