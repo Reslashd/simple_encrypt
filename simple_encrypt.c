@@ -21,9 +21,7 @@
 #define WRITE_MODE "w"
 #define READ_MODE "r"
 
-
 // * Function prototypes
-
 
 void addSignature(char file_content[][MAX_LENGTH], int lines_read);
 int checkSignature(char file_content[][MAX_LENGTH], int lines_read);
@@ -36,7 +34,6 @@ int readFile(char file_content[][MAX_LENGTH], FILE * file_ptr);
 void removeSignature(char file_content[][MAX_LENGTH], int lines_read);
 void showMenu(int has_signature, char file_content[][MAX_LENGTH], int lines_read, FILE * file_ptr, char* file_name);
 void writeFile(char file_content[][MAX_LENGTH], FILE * file_ptr, int lines_read);
-
 
 int main(void)
 {
